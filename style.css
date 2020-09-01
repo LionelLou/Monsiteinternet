@@ -1,0 +1,125 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------- Navigation -----------*/
+nave {
+    display:flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+nave ul li {
+    display:inline-block;
+    text-align: center;
+    width:300px;
+    padding: 5px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-style:dotted;
+    border-color:black;
+    border-width: 2px;
+}
+
+/*---------- Page 1 ----------*/
+
+#contenu1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+#gauche1 {
+    margin-top: 200px;
+}
+
+#droite1 {
+    margin-top:300px;
+    margin-right:200px;
+}
+
+
+section {
+    background-color: darkgrey;
+    height:100%;
+    width:100%;
+}
+
+#resume { 
+    margin-top: 100px;
+    margin-left:200px;
+    margin-right:200px;
+
+}
+p.resume {
+    font-size:30px;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size:30px;
+}
+/*--------- Page 2 --------- */
+
+#contenu2 {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+
+p .titres {
+    text-align: center;
+}
+
+/*--------- Page 3 ----------*/
+
+#formation1, #formation2, #formation3, #formation4, #formation5{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    height: 50%;
+}
+    
+
+#caroussel {
+    display:flex;
+    justify-content: center;
+    padding-top:100px;
+}
+
+#titre {
+    text-decoration: overline;
+}
+
+
+/*--------- Page 4 --------- */
+
+#contenu4 {
+    display:flex;
+    justify-content: space-around;
+}
+
+#droite4 {
+    margin-top: 100px;
+}
+
+#gauche4{
+    margin-top: 300px;
+}
+
+p.contact {
+    font-size:20px;
+    text-align: center;
+}
