@@ -1,0 +1,149 @@
+* {
+    padding: 0 ;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------- Navigation -----------*/
+
+
+
+
+nave ul{
+    display:flex;
+    justify-content: center;
+    background-image: url(blue.jpg);
+    margin-bottom: 0;
+}
+
+
+
+nave ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin:1% 5%;
+    cursor: pointer;
+    border-style:dotted;
+    border-color:white;
+    border-width: 2px;
+}
+
+
+/* ------- Coloriage du texte en blanc ------- */
+
+p, h1, h2, h3, h4, .titre, #titre {
+    color:white;
+    font-family: 'Grandstander', cursive;
+}
+
+
+/* -------- Section ------------*/
+
+section {
+    background-image: url(beige.jpg);
+    height:100%;
+    width:100%;
+}
+
+
+
+/*---------- Page 1 ----------*/
+
+#contenu1 {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+#gauche1 {
+    padding-top: 5%;
+}
+
+#droite1{
+    padding-top: 15%;
+}
+
+
+p.resume {
+
+    font-size:30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size:30px;
+}
+/*--------- Page 2 --------- */
+
+#contenu2 {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    width:auto;
+    height: 100%;
+}
+
+p .titre {
+    text-align: center;
+}
+
+/*--------- Page 3 ----------*/
+
+#contenu3 {
+    width: auto;
+    height: 100%;
+}
+
+
+#formation1, #formation2, #formation3, #formation4, #formation5{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+    
+
+#caroussel {
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+}
+
+#titre {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/*--------- Page 4 --------- */
+
+#contenu4 {
+    display:flex;
+    justify-content: space-around;
+    width: auto;
+    height: 100%;
+}
+
+
+#droite4, #gauche4 {
+    padding-top: 100px;
+    padding-bottom: 10px; ;
+}
+
+p.contact {
+    font-size:20px;
+    text-align: center;
+}
